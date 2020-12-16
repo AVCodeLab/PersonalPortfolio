@@ -1,0 +1,209 @@
+h1 {
+    color: #fffffe;
+}
+
+body {
+    background-color: #16161a;
+    font-family: monospace !important;
+}
+
+p {
+    color: #94a1b2;
+}
+
+section{
+    display: block;
+}
+
+.button{
+   background-color: #7f5af0;
+    border-color: #7f5af0;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    margin:0;
+    text-decoration: none !important;
+}
+
+.button-show-all{
+    background-color: #7f5af0;
+    border-color: #7f5af0;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    text-decoration: none !important;
+
+}
+
+.button-view{
+    background-color: #7f5af0;
+    border-color: #7f5af0;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    margin:0;
+    text-decoration: none !important;
+    width: 85px;
+}
+/*Navbar*/
+a{
+    font-size: 1.3rem;
+    color: #fffffe !important; 
+}
+
+/*
+.navbar navbar-expand-lg {
+    background-color:#7f5af0" !important;
+}
+*/
+/*welcome section*/
+
+.welcome-section{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+/*    background-image: url("./images/cool-background.png");*/
+        
+}
+
+.welcome-section h1{
+    font-size: 5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.welcome-section h3{
+    margin-top: 10px;
+    line-height: 1;
+    color: mintcream;
+}
+
+.welcome-section p{
+    font-size: 1.5rem !important;
+/*   margin: 20px 655px 0px;*/
+/*    max-width: 500px;*/
+
+}
+
+/*Projects section*/
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+    box-sizing: inherit;
+}
+.projects-section{
+    background-color: #242629;
+    padding: 10rem 2rem;
+        text-align: center;
+
+}
+.projects-section h2{
+    display: block;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: monospace;
+    font-weight: 700;
+    color: #fffffe;
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid ;
+}
+.card{
+    background-color: #16161a !important;
+/*    width: a;*/
+}
+.card h5{
+    color: #fffffe;
+}
+.card p{
+    color: #94a1b2;
+}
+.row{
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)) !important;
+    grid-gap: 4rem !important;
+    width: 100% !important;
+    max-width: 1280px !important;
+    margin: 0 auto !important;
+    margin-bottom: 6rem !important;
+}
+
+/*Contacts Section*/
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+    background: #16161a;
+    color: #fffffe;
+}
+.contact-links{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+}
+.email-button {
+    color: #fffffe;
+    background-color: #7f5af0;
+/*    border: 1px solid var(--green);*/
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    padding: 1.25rem 1.75rem;
+    font-size: var(--fz-sm);
+    font-family: 'Raleway', sans-serif;
+    line-height: 1;
+    text-decoration: none !important;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+/*Footer*/
+
+footer{
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background: #242629;
+    border-top: 4px solid white;
+}
+
+footer p{
+    text-align: center;
+    color: #94a1b2;
+    font-family: monospace;
+}
